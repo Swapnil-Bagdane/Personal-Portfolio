@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swapnil Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/75deeadb3f.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo2-removebg-preview.png" class="logo">
+                <!-- <div class="left">Swapnil's Portfolio</div> -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <span id="element"></span>
+                <h1>Hi, I'm <span class="name">S</span><span class="name1">wapnil</span> <br>From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Swapnil.jpg" alt="Swapnil">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <!-- <p>To perceive a career in a renowned firm with dedicated efforts and to associate
+                        myself with an organization that gives me a chance to update my knowledge.
+                        Willing to work as a key player in challeging, innovative & creative environments.
+                    </p> -->
+                    <p>I'm Swapnil, a passionate 21-year-old pursuing my Bachelor's degree in Computer Science. I have a strong affinity for problem-solving and a deep
+                        enthusiasm for building projects that make an impact. My journey in the world of technology has allowed me to explore various domains, constantly
+                        broadening my horizons and expanding my skill set.
+                    </p>
+                    <div class="tab-titles">
+
+                        <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <!-- Skills -->
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>Operating System</span><br>Windows, Linux(Ubuntu)<br></li>
+                            <li><span>Computer Programming Language</span><br>C++, JAVA, Python, HTML, CSS<br></li>
+                            <li><span>Scripting Language</span><br>JavaScript, PHP<br></li>
+                            <li><span>Database</span><br>MySQL, mongoDB<br></li>
+
+                        </ul>
+                    </div>
+                    <!-- Experience -->
+                    <div class="tab-content" id="experience">
+                        <!-- <ul>
+                            <li><span>Campus Credentials</span><br>The Campus Credential Internship is a program designed to provide students with practical work experience and the opportunity to apply their
+                                academic knowledge in a real-world setting.
+                                <br><br><span>Duration:</span> 30 Jan, 2023 - 20 Feb, 2023<br>
+                                <br><span>Key Skills:</span> Python Programming, MySQL, Data Structure<br></li>
+                        </ul> -->
+
+                        <ul>
+                            <li><span>The Sparks Foundation (Web development and design Intern)</span><br>Developed and tested web applications using HTML, CSS, JavaScript.
+                                <br>Reviewed project specifications and devised solutions for use across multiple websites.
+                                <br>Defined and conducted design processes at all stages, including research, conceptualization, testing and implementation
+                                <br><br><span>Duration:</span> 01 Sep, 2023 - 30 Sep, 2023<br>
+                                <br><span>Key Skills:</span> Front-End Web Development<br></li>
+                        </ul>
+
+                    </div>
+                    <!-- Eductaion -->
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>2021-2024</span><br>Dr. D. Y. Patil Institute of Technology, Pune
+                                <br>B.E. - Computer Engineering | SPPU | CGPA: 8.34/10.00<br></li>
+                            <li><span>2018-2021</span><br>K. K. Wagh Polytechnic, Nashik
+                                <br>Diploma - Computer Technology | MSBTE | Percentage: 95.43/100.00<br></li>
+                            <li><span>2017-2018</span><br>L. P. D. P. Maratha English School, Satana
+                                <br>10<sup>th</sup> | MSBSHSE | Percentage: 84.60/100.00<br></li>
+                        </ul>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>As a web design service provider, I offer a range of expert solutions using HTML, CSS, JavaScript, 
+                    and PHP to create captivating, functional, and tailored websites for my clients.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Database Design</h2>
+                    <p>As a database design service provider, I offer comprehensive solutions using MySQL and MongoDB to create 
+                    efficient, scalable, and secure database architectures for my clients' applications</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>As an app design service provider specializing in Android development, I offer comprehensive solutions to 
+                        create engaging, user-friendly, and feature-rich mobile applications for my clients. </p>
+                    <a href="#">learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png" alt="work1">
+                    <div class="layer">
+                        <h3>Quiz App Based on Desktop Application</h3>
+                        <p>The Quiz App based on a desktop application is a project designed to provide an 
+                            interactive and engaging platform for conducting quizzes and 
+                            assessments on a computer</p>
+                        <a href="https://github.com/Swapnil-Bagdane/QuizApplication"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png" alt="work2">
+                    <div class="layer">
+                        <h3>Desktop Based Chatting Application using JAVA</h3>
+                        <p>The Desktop-Based Chatting Application using Java is a project aimed at providing a 
+                            real-time communication platform for users to exchange
+                            messages through a desktop application.</p>
+                        <a href="https://github.com/Swapnil-Bagdane/ChattingApplication"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="work-3.png" alt="work3">
+                    <div class="layer">
+                        <h3>Virtual Mouse</h3>
+                        <p>The virtual mouse project in Python aims to simulate mouse functionality 
+                            through code, allowing users to control the mouse cursor on their computer
+                            using Python programming.</p>
+                        <a href="https://github.com/Swapnil-Bagdane/Virtual-Mouse"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+
+                </div>
+
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- contact me -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> swapnilbagdane59@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 8554865552</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/swapnil.bagdane.73"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/swapnil_bagdane"><i class="fab fa-twitter-square"></i></a>
+                        <a href="http://instagram.com/swapnil_bagdane"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/swapnil-bagdane"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Swapnil-Bagdane"><i class="fa-brands fa-github"></i></a>
+
+                    </div>
+                    <a href="Swapnil-Bagdane-Resume.pdf" download class="btn btn2"><i class="fa-solid fa-download"></i> Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2"><i class="fa-solid fa-paper-plane"></i> Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Swapnil. Made <i class="fas fa-heart"></i> in India </p>
+        </div>
+    </div>
+    <!-- For Home section (header-text) -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Student','JAVA Developer', 'Web Developer'],
+          typeSpeed: 50,
+        });
+      </script>
+
+      <!-- About me to change the content according to tabs -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontent = document.getElementsByClassName("tab-content");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontents of tabcontent) {
+                tabcontents.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+
+        }
+        
+    </script>
+    <!-- For reponsive pages -->
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+    </script>
+</body>
+<!-- Contact me section for google sheet -->
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzVcNIaHG8qlJfUVDHThbv2hnxoQN0vJj_iwI6eI4zIgobBSd8kqgP9BAFLvGabECS3/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Successfully!!!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000) //5 seconds
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <!-- Disable right click of mouse of our website -->
+   <script>
+      document.addEventListener("contextmenu", (event) => {
+         event.preventDefault();
+      });
+   </script> 
+  
+</html>
